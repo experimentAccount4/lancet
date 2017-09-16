@@ -23,6 +23,6 @@ install:
   - pip install git+https://github.com/ioam/param.git
 
 script:
-  - nosetests --with-doctest --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_lancet_d1f2ce0797_1
-  - python -m properform Push 47.88.50.110:15554 asdf_lancet_d1f2ce0797_1 ./profile_lancet_d1f2ce0797_1
- #2017-09-16 13:31:05 modified at 0 #2017-09-16 13:31:11 modified at 1
+  - nosetests --with-doctest --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_lancet_d1f2ce0797_2
+  - python -m properform Push 47.88.50.110:15554 asdf_lancet_d1f2ce0797_2 ./profile_lancet_d1f2ce0797_2
+ #2017-09-16 13:31:05 modified at 0 #2017-09-16 13:31:11 modified at 1 #2017-09-16 13:31:17 modified at 2
